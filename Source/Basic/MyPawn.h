@@ -17,9 +17,9 @@ class BASIC_API AMyPawn : public APawn
 public:
 	// Sets default values for this pawn's properties
 	AMyPawn();
-	UPROPERTY(EditAnywhere)
+	UPROPERTY(EditDefaultsOnly)
 	UStaticMeshComponent* mesh;
-	UPROPERTY(EditAnywhere)
+	UPROPERTY(EditDefaultsOnly)
 	UCameraComponent* cam;
 
 

@@ -12,6 +12,7 @@ AMyPawn::AMyPawn()
 
 	CreateDefaultSubobject<UFloatingPawnMovement>("Movement");
 	mesh = CreateDefaultSubobject<UStaticMeshComponent>("Mesh");
+	SetRootComponent(mesh);
 	cam = CreateDefaultSubobject<UCameraComponent>("Cam");
 }
 
